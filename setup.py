@@ -9,8 +9,8 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 
 setup(
-    name="PyPassGenerator",
-    version="1.0.0",
+    name="shPassGenerator",
+    version="1.0.2",
     author="Shervin Badanara (shervinbdndev)",
     author_email="shervin2234@gmail.com",
     long_description_content_type="text/markdown",

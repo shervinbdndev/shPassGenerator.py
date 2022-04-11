@@ -1,4 +1,4 @@
-from PyPassGenerator import (GeneratePass , Version)
+from shPassGenerator import (GeneratePass , Version)
 
 
 print(f"This Password is Strong : {GeneratePass(length=16)}")
