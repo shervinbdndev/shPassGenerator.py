@@ -93,6 +93,19 @@ py -m pip install --upgrade shPassGenerator
 <br><br><br>
 <h1 align='left'><b>Usage</b></h1>
 
+Args  |  Type   |  Efficiency
+------------- | ------------- | -------------
+length  | Integer | Set The Length of your Password (Max Length is Unlimited)
+chars  |  Boolean  | Use Lowercase & Uppercase Characters in Your Password
+lowercase  |  Boolean  |  Use Lowercase Characters in Your Password
+uppercase  |  Boolean  |  Use Uppercase Characters in Your Password
+numbers  |  Boolean  |  Use Numbers in Your Password
+symbols  |  Boolean  |  Use Symbols in Your Password
+octal  |  Boolean  |  Use Octal Characters in Your Password
+hexa  |  Boolean  |  Use Hexa Characters in Your Password
+
+<br>
+
 <b>Generate a 50 Characters Password</b>
 
 ```python
@@ -108,23 +121,6 @@ print(f"This Password is Strong too : {GeneratePass(length=50 , chars=True , sym
 This Password is Strong : umvgfarzfirmuesc
 This Password is Strong too : aU;/k.ofD-d@ZoCeLgaOui/=zdr)n#o@KKi%e[D'`I>$vpHNzT
 ```
-
-<br><br><br>
-
-
-<h1 align='left'>Arguments</h1>
-
-Args  | Efficiency
-------------- | -------------
-length  | Set The Length of your Password (Max Length is Unlimited)
-chars  | Use Lowercase & Uppercase Characters in Your Password
-lowercase  |  Use Lowercase Characters in Your Password
-uppercase  |  Use Uppercase Characters in Your Password
-numbers  |  Use Numbers in Your Password
-symbols  |  Use Symbols in Your Password
-octal  |  Use Octal Characters in Your Password
-hexa  |  Use Hexa Characters in Your Password
-
 
 <br><br><br>
 <hr>
