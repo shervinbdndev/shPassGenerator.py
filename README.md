@@ -106,7 +106,7 @@ hexa  |  Boolean  |  Use Hexa Characters in Your Password
 
 <br>
 
-<b>Generate a 50 Characters Password</b>
+<b>Generate Strong Passwords</b>
 
 ```python
 from shPassGenerator import GeneratePass
