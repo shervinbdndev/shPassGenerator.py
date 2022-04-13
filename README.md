@@ -109,6 +109,17 @@ This Password is Strong : umvgfarzfirmuesc
 This Password is Strong too : aU;/k.ofD-d@ZoCeLgaOui/=zdr)n#o@KKi%e[D'`I>$vpHNzT
 ```
 
+Args  | Efficiency
+------------- | -------------
+length  | Set The Length of your Password (Max Length is Unlimited)
+chars  | Use Lowercase & Uppercase Characters in Your Password
+lowercase  |  Use Lowercase Characters in Your Password
+uppercase  |  Use Uppercase Characters in Your Password
+numbers  |  Use Numbers in Your Password
+symbols  |  Use Symbols in Your Password
+octal  |  Use Octal Characters in Your Password
+hexa  |  Use Hexa Characters in Your Password
+
 <hr>
 <h1 align='center'>Enjoy :)</h1>
 
