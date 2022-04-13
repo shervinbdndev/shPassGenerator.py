@@ -44,7 +44,7 @@
 <hr>
 
 <br><br><br>
-<h1 align='center'><b>Update Your Interpreter</b></h1>
+<h1 align='left'><b>Update Your Interpreter</b></h1>
 
 # Windows / CMD
 
@@ -61,7 +61,7 @@ python -m pip install --upgrade pip
 
 <hr>
 <br><br><br>
-<h1 align='center'><b>Installation</b></h1>
+<h1 align='left'><b>Installation</b></h1>
  
 # Windows / CMD , Linux / Terminal
 ```python
@@ -74,7 +74,7 @@ py -m pip install shPassGenerator
 ```
 
 <br><br><br>
-<h1 align='center'><b>Update Library</b></h1>
+<h1 align='left'><b>Update Library</b></h1>
  
 # Windows / CMD , Linux / Terminal
 ```python
@@ -91,7 +91,7 @@ py -m pip install --upgrade shPassGenerator
 
 <hr>
 <br><br><br>
-<h1 align='center'><b>Usage</b></h1>
+<h1 align='left'><b>Usage</b></h1>
 
 <b>Generate a 50 Characters Password</b>
 
@@ -109,6 +109,11 @@ This Password is Strong : umvgfarzfirmuesc
 This Password is Strong too : aU;/k.ofD-d@ZoCeLgaOui/=zdr)n#o@KKi%e[D'`I>$vpHNzT
 ```
 
+<br><br><br>
+
+
+<h1 align='left'>Arguments</h1>
+
 Args  | Efficiency
 ------------- | -------------
 length  | Set The Length of your Password (Max Length is Unlimited)
@@ -120,8 +125,10 @@ symbols  |  Use Symbols in Your Password
 octal  |  Use Octal Characters in Your Password
 hexa  |  Use Hexa Characters in Your Password
 
+
+<br><br><br>
 <hr>
-<h1 align='center'>Enjoy :)</h1>
+<h1 align='left'>Enjoy :)</h1>
 
 <br>
 <h3><b>Package Uploaded in PYPI :<a href="https://pypi.org/project/shPassGenerator/">Here</a></b></h3>
