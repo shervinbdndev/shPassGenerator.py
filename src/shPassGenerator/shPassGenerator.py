@@ -43,7 +43,7 @@ class Utils:
 
 class GeneratePass(Utils):
     def __init__(self , length=None , chars=None , lowercase=None , uppercase=None , numbers=None , symbols=None , octal=None , hexa=None) -> None:
-        """_summary_
+        """GeneratePass
 
         Args:
             length (int): Set The Length of your Password (Max Length is Unlimited)
