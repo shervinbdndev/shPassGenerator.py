@@ -1,5 +1,5 @@
 <h1 align='center' style="font-size:5rem"><b>shPassGenerator</b></h1>
-<p align='center'><b>Version 1.0.2</b></p>
+<p align='center'><b>Version 1.0.3</b></p>
 <div align="center">
     <div align="center">
         <img src="https://img.shields.io/github/license/shervinbdndev/shPassGenerator.svg"></img>
@@ -96,17 +96,17 @@ py -m pip install --upgrade shPassGenerator
 <b>Generate a 50 Characters Password</b>
 
 ```python
-from shPassGenerator import (GeneratePass , Version)
+from shPassGenerator import GeneratePass
 
 
-print(f"This Password is Strong : {GeneratePass(length=16)}")
-print(f"This Password is Strong too : {GeneratePass(length=50)}")
+print(f"This Password is Strong : {GeneratePass(length=16 , lowercase=True)}")
+print(f"This Password is Strong too : {GeneratePass(length=50 , chars=True , symbols=True)}")
 ```
 <b>Output</b>
 
 ```python
-This Password is Strong : vS=u0co2emJ0<Qqz
-This Password is Strong too : BAYq'9JqvH}WRFOQdEVmB3gLp)HCIekFPp&R:@iDfot,\^r<6n
+This Password is Strong : umvgfarzfirmuesc
+This Password is Strong too : aU;/k.ofD-d@ZoCeLgaOui/=zdr)n#o@KKi%e[D'`I>$vpHNzT
 ```
 
 <hr>

@@ -10,7 +10,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 setup(
     name="shPassGenerator",
-    version="1.0.2",
+    version="1.0.3",
     author="Shervin Badanara (shervinbdndev)",
     author_email="shervin2234@gmail.com",
     long_description_content_type="text/markdown",
