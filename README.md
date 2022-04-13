@@ -104,7 +104,7 @@ print(f"This Password is Strong too : {GeneratePass(length=50 , chars=True , sym
 ```
 <b>Output</b>
 
-```python
+```md
 This Password is Strong : umvgfarzfirmuesc
 This Password is Strong too : aU;/k.ofD-d@ZoCeLgaOui/=zdr)n#o@KKi%e[D'`I>$vpHNzT
 ```
