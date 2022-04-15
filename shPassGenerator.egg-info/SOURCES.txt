@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shPassGenerator/__init__.py
+shPassGenerator.egg-info/PKG-INFO
+shPassGenerator.egg-info/SOURCES.txt
+shPassGenerator.egg-info/dependency_links.txt
+shPassGenerator.egg-info/top_level.txt

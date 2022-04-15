@@ -16,9 +16,9 @@ class Version:
     def __init__(self) -> None:
         super(Version , self).__init__()
         
-        self.version = r""
-        with io.open(file=os.path.join(os.path.abspath('.') , 'version.txt') , mode='r+' , encoding='utf-8' , errors=None) as temp:
-            self.version = temp.readline()
+        self.version = r"1.0.4"
+        """with io.open(file=os.path.join(os.path.abspath('.') , 'version.txt') , mode='r+' , encoding='utf-8' , errors=None) as temp:
+            self.version = temp.readline()"""
                 
     def __str__(self) -> str:
         return self.version
