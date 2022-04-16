@@ -2,6 +2,7 @@ try:
     import io
     import os
     import random
+    from .utils import Constants
     
 except:
     import sys;\
@@ -12,11 +13,11 @@ except:
 
 
 
-class Version:
+class MetaData:
     def __init__(self) -> None:
-        super(Version , self).__init__()
+        super(MetaData , self).__init__()
         
-        self.version = r"1.0.4"
+        self.version = r"1.0.6"
         """with io.open(file=os.path.join(os.path.abspath('.') , 'version.txt') , mode='r+' , encoding='utf-8' , errors=None) as temp:
             self.version = temp.readline()"""
                 
@@ -28,20 +29,8 @@ class Version:
 
 
 
-class Utils:
-    LOWERCASE = r"abcdefghijklmnopqrstuvwxyz"
-    UPPERCASE = r"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    CHARACTERS = fr"{LOWERCASE}{UPPERCASE}"
-    NUMERIC = r"0123456789"
-    OCTALDIGITS = r"01234567"
-    HEXADIGITS = fr"{NUMERIC}abcdefABCDEF"
-    SYMBOLS = r"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
-
-
-
-
-class GeneratePass(Utils):
+class GeneratePass(Constants):
     def __init__(self , length=None , chars=None , lowercase=None , uppercase=None , numbers=None , symbols=None , octal=None , hexa=None) -> None:
         """GeneratePass
 
